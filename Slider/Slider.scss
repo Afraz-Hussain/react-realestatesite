@@ -1,0 +1,37 @@
+.slider{
+    display: flex;
+
+    .mainpic{
+        display: flex;
+.leftarrow ,.rightarrow{
+    background-color: red;
+    width: 20%;
+    height: 40px;
+    margin-top: 140px;
+    border-radius: 80px;
+    cursor: pointer;
+    
+}.rightarrow{
+    transform: rotate(180deg);
+    background-color: blue;
+}
+        .showcaseimg{
+            width: 450px;
+            height: 320px;
+            border: 1px solid rgb(37, 37, 37);
+            border-radius: 7px;
+        }
+       
+    }
+    .sidepics{
+        .sideimages{
+            width: 200px;
+            height: 100px;
+        display: flex;
+      margin: 10px;
+            border-radius: 7px;
+            cursor: pointer;
+           
+        }
+    }
+}

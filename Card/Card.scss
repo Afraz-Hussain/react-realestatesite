@@ -1,0 +1,47 @@
+@use '../MobileStyle.scss' as *;
+
+
+.cardpage{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(199, 199, 199);
+    padding: 12px;
+    margin: 10px;
+    width: 40%;
+    border-radius: 7px;
+.imgcontainer{
+    margin-right: 10px;
+    img{
+        object-fit:fill;
+        width: 200px;
+    height: 100px;
+    }
+   
+}
+
+    .textcontainer{
+        display: flex;
+        flex-direction: column;
+        .cardprice{
+            background-color: lightblue;
+            width: 60px;
+           
+        }
+        .roomspecs{
+            display:flex;
+            align-items: center;
+            gap: 10px;
+           .bath, .bed{
+            display:flex;
+            align-items: center;
+            gap: 10px;
+            background-color: lightblue;
+           }
+            img{
+                
+                width: 25px;
+            }
+        }
+    }
+}
+

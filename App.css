@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: 10px;
+    scrollbar-color: rgba(146, 146, 146, 0.534);
+}

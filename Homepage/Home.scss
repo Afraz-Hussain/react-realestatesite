@@ -1,0 +1,58 @@
+@use '../MobileStyle.scss' as *;
+.homesection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .textcontainer {
+    flex: 3;
+    .wrapper {
+      padding-right: 30%;
+      padding-left: 20px;
+      h1 {
+        font-size: 45px;
+        font-family: monospace;
+      }
+    }
+  }
+  .imgcontainer {
+    flex: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    img {
+      position: absolute;
+      right: 0%;
+      width: 100%;
+    }
+  }
+}
+@include sm {
+  .homesection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .imgcontainer{
+        justify-content: center;
+        width: 80%;
+        flex: 12;
+        margin-right: 60px;
+        img{
+          padding: 20px;
+        }
+    }
+    .textcontainer{
+        margin-top: 30px;
+        .wrapper{
+        padding-right: 20%;
+      padding-left: 10px;
+            h1{
+                font-size: 27px;
+            }
+           text-align:justify;
+        }
+    }
+  }
+  
+}

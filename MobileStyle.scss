@@ -1,0 +1,6 @@
+$maincolor:#f4f4f4d7;
+@mixin sm{
+    @media (max-width:738px) {
+        @content;
+    }
+}
